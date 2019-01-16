@@ -1,0 +1,1 @@
+<footer class="footer"> &copy; {{Date('Y')}} Material Pro Admin  </footer>
