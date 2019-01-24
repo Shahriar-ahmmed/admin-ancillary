@@ -2,7 +2,7 @@
 
 namespace Ahmmed\AdminAncillary\Controllers;
 
-use Ahmmed\AdminAncillary\models\Role;
+use Ahmmed\AdminAncillary\Models\Role;
 use Ahmmed\AdminAncillary\ResponseMessage;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;

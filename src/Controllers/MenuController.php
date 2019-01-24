@@ -9,7 +9,7 @@
 
 namespace Ahmmed\AdminAncillary\Controllers;
 
-use Ahmmed\AdminAncillary\models\Menu;
+use Ahmmed\AdminAncillary\Models\Menu;
 use App\Http\Controllers\Controller;
 use Ahmmed\AdminAncillary\FormValidation;
 use Ahmmed\AdminAncillary\ResponseMessage;
