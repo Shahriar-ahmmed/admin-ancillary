@@ -39,9 +39,9 @@ class AdminAncillaryServiceProvider extends ServiceProvider
         ], 'migrations');
 
         // Publishing seeds
-        /*$this->publishes([
+        $this->publishes([
             __DIR__ . '/seeds' => database_path('/seeds'),
-        ], 'migrations');*/
+        ], 'migrations');
     }
 
     /**

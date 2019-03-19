@@ -27,7 +27,6 @@ class CreateMenuTable extends Migration
 
             $table->timestamps();
         });
-        DB::unprepared(file_get_contents( __DIR__ . "/db_values.sql"));
     }
 
     /**

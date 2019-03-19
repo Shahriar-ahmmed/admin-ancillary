@@ -30,9 +30,19 @@ Getting Started
         return $this->hasOne(Role::class,'id','user_role');
     }
     
+    and also add below lines into DatabaseSeeder file
+    
+    $this->call(UserTableSeeder::class);
+    $this->call(MenuTableSeeder::class);
+    $this->call(RoleTableSeeder::class);
+    
     After that run 
     
-    "php artisan migrate"
+    "php artisan migrate" 
+    
+    and
+    
+    "php artisan db:seed" 
     
     Add the middleware to your app/Http/Kernel.php.
 
