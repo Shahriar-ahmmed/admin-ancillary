@@ -20,6 +20,11 @@ Requirements
 
 Getting Started
 
+
+Installation
+
+    composer require ahmmed/admin-ancillary
+
     Publish the package migrations,asset and views to your application
     
     php artisan vendor:publish --provider="Ahmmed\AdminAncillary\AdminAncillaryServiceProvider"
