@@ -21,7 +21,6 @@ Route::group(['middleware' => ['web', 'auth'], 'prefix' => 'admin', 'as' => 'adm
         Route::get('/menu_order', 'MenuOrderController@index');
         Route::post('menu_order', 'MenuOrderController@updateOrder');
         Route::get('/setpermission', 'SetPermissionController@index');
-        Route::get('/initiatemenu', 'Role\RoleController@index');
         Route::get('setpermission/json', 'SetPermissionController@getMenuJson');
         Route::get('setpermission/{role_id}', 'SetPermissionController@getPermission');
         Route::post('status/{id}', 'UserManagementController@status');
