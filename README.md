@@ -45,7 +45,9 @@ Installation
     
     "php artisan migrate" 
     
-    and
+    And you need to run in your console:
+    
+    composer dump-autoload
     
     "php artisan db:seed" 
     
@@ -59,6 +61,10 @@ Installation
 
     Also add DEFAULT_LOGO and DEFAULT_FAVICON in your .env file for upload logo and favicon in app settings 
     
+    Add Routes with check_permission to control routes with permission
+        Route::group(['middleware' => 'check_permission'], function () {    
+        
+        });
 Documentation
 
     Follow along the Wiki to find out more.
