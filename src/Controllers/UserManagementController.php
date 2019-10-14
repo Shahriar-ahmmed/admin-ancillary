@@ -55,6 +55,7 @@ class UserManagementController extends Controller
                 ->join('roles', 'roles.id', '=', 'users.user_role')
                 ->select('users.*', 'roles.role')
                 ->where('users.id', '!=', Auth::user()->id)
+                ->where('users.user_role', '>', Auth::user()->user_role)
                 ->orderBy('users.id', 'desc')
                 ->get();
 //        dd($userlist);
