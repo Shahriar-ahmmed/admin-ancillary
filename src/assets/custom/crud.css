@@ -1,0 +1,7 @@
+.form-group .input-group .input-group-addon{
+    min-width: 150px;
+    text-align: left;
+}
+.form-group .input-group{
+    margin: 10px 0;
+}

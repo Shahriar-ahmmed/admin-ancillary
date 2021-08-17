@@ -1,0 +1,34 @@
+{
+    "name": "ahmmed/admin-ancillary",
+    "description": "This package will check permission of admin user to control access in admin.",
+    "keywords": ["Admin control access permission"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shahriar Ahmmed",
+            "email": "tuhinshahriar@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6",
+        "laravel/framework": "~5.4.*",
+        "laracasts/flash": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ahmmed\\AdminAncillary\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ahmmed\\AdminAncillary\\AdminAncillaryServiceProvider"
+            ],
+            "aliases": {
+                "AdminAncillary": "Ahmmed\\AdminAncillary\\Facade"
+            }
+        }
+    }
+}
