@@ -13,7 +13,7 @@
     "minimum-stability": "dev",
     "require": {
         "php": "^7.3|^8.0",
-        "laravel/framework": "~8.1",
+        "laravel/framework": "^8.0",
         "laracasts/flash": "^3.0"
     },
     "autoload": {
