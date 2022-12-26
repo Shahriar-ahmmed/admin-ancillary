@@ -16,7 +16,7 @@ Contribution Guidelines
 
 Requirements
 
-    This package requires PHP 7.3 or 8
+    This package requires PHP greater than 7.3
 
 Getting Started
 
