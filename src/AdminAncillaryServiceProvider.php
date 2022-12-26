@@ -21,7 +21,7 @@ class AdminAncillaryServiceProvider extends ServiceProvider
     public function boot()
     {
         // Loading routes
-        require __DIR__ . '/routes.php';
+        $this->loadRoutesFrom(__DIR__.'/routes.php');
 
         // Publishing views
         $this->publishes([
